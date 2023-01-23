@@ -5,7 +5,6 @@ function addNums10(increment) {
   let arr = []
   for(let i = 1; i <= 10; i++){
      arr.push(addNums(i * increment))
-
   }
  return arr
 }
